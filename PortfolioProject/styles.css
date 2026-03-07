@@ -87,6 +87,9 @@ footer a:hover {
     text-decoration: underline;
 }
 
+/* --------------------------
+Project Images Grid for Portfolio
+-------------------------- */
 .project-images {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 columns */
@@ -100,4 +103,24 @@ footer a:hover {
     height: auto;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(255, 105, 180, 0.3); /* subtle pink glow */
+}
+
+/* --------------------------
+KCFC Project Custom Styles
+-------------------------- */
+.project-title-pink {
+    color: #ff69b4; /* pink title for KCFC project */
+}
+
+.project-images-large {
+    display: flex;
+    justify-content: center;
+    margin: 1.5em 0;
+}
+
+.project-images-large img {
+    max-width: 300px; /* larger for better visibility */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 105, 180, 0.4); /* subtle pink glow */
 }
