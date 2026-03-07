@@ -90,8 +90,8 @@ footer a:hover {
 .project-images {
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 columns */
-    gap: 1em; /* space between images */
-    justify-items: center; /* center images in each column */
+    gap: 1em; /* spacing between images */
+    justify-items: center; /* center each image in its column */
     margin: 1.5em 0;
 }
 
