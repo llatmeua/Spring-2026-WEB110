@@ -124,3 +124,21 @@ KCFC Project Custom Styles
     border-radius: 10px;
     box-shadow: 0 0 15px rgba(255, 105, 180, 0.4); /* subtle pink glow */
 }
+
+/* --------------------------
+Photoshop Markups Compare Images
+-------------------------- */
+.project-images-compare {
+    display: flex;
+    justify-content: center;
+    gap: 1em; /* space between images */
+    flex-wrap: wrap; /* wraps on smaller screens */
+    margin: 1.5em 0;
+}
+
+.project-images-compare img {
+    max-width: 250px; /* size for easy viewing */
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 105, 180, 0.3); /* pink glow consistent */
+}
