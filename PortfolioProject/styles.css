@@ -119,8 +119,8 @@ KCFC Project Custom Styles
 }
 
 .project-images-large img {
-    max-width: 400px; /* larger for better visibility */
+    max-width: 300px; /* larger for better visibility */
     height: auto;
     border-radius: 10px;
-    box-shadow: 0 0 25px rgba(255, 105, 180, 0.4); /* subtle pink glow */
+    box-shadow: 0 0 15px rgba(255, 105, 180, 0.4); /* subtle pink glow */
 }
