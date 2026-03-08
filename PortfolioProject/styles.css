@@ -87,9 +87,6 @@ footer a:hover {
     text-decoration: underline;
 }
 
-/* --------------------------
-Project Images Grid for Portfolio
--------------------------- */
 .project-images {
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
@@ -104,9 +101,6 @@ Project Images Grid for Portfolio
     border-radius: 8px;
 }
 
-/* --------------------------
-KCFC Project Custom Styles
--------------------------- */
 .project-title-pink {
     color: #ff69b4; 
 }
@@ -123,9 +117,6 @@ KCFC Project Custom Styles
     border-radius: 10px; 
 }
 
-/* --------------------------
-Photoshop Markups Compare Images
--------------------------- */
 .project-images-compare {
     display: flex;
     justify-content: center;
