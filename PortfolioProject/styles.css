@@ -7,8 +7,8 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 1em;
     line-height: 1.6;
-    background-color: #000; /* black background */
-    color: #fff; /* white text */
+    background-color: #000;
+    color: #fff;
     margin: 0;
     padding: 0;
 }
@@ -17,9 +17,9 @@ body {
     width: 80%;
     max-width: 900px;
     margin: 2em auto;
-    background-color: #111; /* slightly lighter black */
+    background-color: #111; 
     padding: 1.5em;
-    box-shadow: 0 0 15px rgba(255, 182, 193, 0.3); /* subtle pink glow */
+    box-shadow: 0 0 15px rgba(255, 182, 193, 0.3); 
 }
 
 header, footer {
@@ -31,7 +31,7 @@ header, footer {
 header h1 {
     font-weight: bold;
     font-size: 2em;
-    color: #ff69b4; /* pink accent */
+    color: #ff69b4; 
     margin: 0.2em 0;
 }
 
@@ -53,7 +53,7 @@ nav ul li a {
 }
 
 nav ul li a:hover {
-    color: #ff69b4; /* pink hover */
+    color: #ff69b4; 
 }
 
 main h2 {
@@ -92,9 +92,9 @@ Project Images Grid for Portfolio
 -------------------------- */
 .project-images {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columns */
-    gap: 1em; /* spacing between images */
-    justify-items: center; /* center each image in its column */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 1em; 
+    justify-items: center; 
     margin: 1.5em 0;
 }
 
@@ -109,7 +109,7 @@ Project Images Grid for Portfolio
 KCFC Project Custom Styles
 -------------------------- */
 .project-title-pink {
-    color: #ff69b4; /* pink title for KCFC project */
+    color: #ff69b4; 
 }
 
 .project-images-large {
@@ -119,10 +119,10 @@ KCFC Project Custom Styles
 }
 
 .project-images-large img {
-    max-width: 300px; /* larger for better visibility */
+    max-width: 300px; 
     height: auto;
     border-radius: 10px;
-    box-shadow: 0 0 15px rgba(255, 105, 180, 0.4); /* subtle pink glow */
+    box-shadow: 0 0 15px rgba(255, 105, 180, 0.4); 
 }
 
 /* --------------------------
@@ -131,14 +131,14 @@ Photoshop Markups Compare Images
 .project-images-compare {
     display: flex;
     justify-content: center;
-    gap: 1em; /* space between images */
-    flex-wrap: wrap; /* wraps on smaller screens */
+    gap: 1em; 
+    flex-wrap: wrap; 
     margin: 1.5em 0;
 }
 
 .project-images-compare img {
-    max-width: 250px; /* size for easy viewing */
+    max-width: 250px; 
     height: auto;
     border-radius: 10px;
-    box-shadow: 0 0 10px rgba(255, 105, 180, 0.3); /* pink glow consistent */
+    box-shadow: 0 0 10px rgba(255, 105, 180, 0.3); 
 }
